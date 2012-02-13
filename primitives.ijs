@@ -135,8 +135,8 @@ $: SelfReference
 |. Rotate Reverse Shift 
 |: Transpose Transpose
 ..  DotProduct Determinant
-... Even
-..: Odd
+.. Even
+.: Odd
 :  MonadDyad  ExplicitDefinition  Explicit
 :. Obverse
 :: Adverse
