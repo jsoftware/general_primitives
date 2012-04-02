@@ -18,7 +18,7 @@ VERSION=: '1.0.1'
 
 RELEASE=: 'j701'
 
-PLATFORMS=: 'win linux darwin'
+PLATFORMS=: ''
 
 FILES=: 0 : 0
 primitives.ijs
