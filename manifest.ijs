@@ -14,9 +14,9 @@ time penalty.
 
 LABCATEGORY=: 'General'
 
-VERSION=: '1.0.3'
+VERSION=: '1.0.4'
 
-RELEASE=: 'j701 j801'
+RELEASE=: 'j701 j801 j802'
 
 PLATFORMS=: ''
 
