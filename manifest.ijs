@@ -18,7 +18,7 @@ VERSION=: '1.0.4'
 
 RELEASE=: 'j701 j801 j802'
 
-PLATFORMS=: 'linux win darwin android'
+PLATFORMS=: ''
 
 FILES=: 0 : 0
 primitives.ijs
