@@ -96,7 +96,7 @@ JWiki for this.  Look at Primitives to Mnemonics contributed
 by Don Guin. 
 )
 
-cocurrent 'z'
+cocurrent 'jprimitives'
 
 
 PRIMITIVES =: noun define
@@ -214,6 +214,7 @@ t: WeightedTaylor
 T. TaylorApproximation
 u: Unicode
 x: NumDenom ExtendedPrecision 
+Z: Fold
 )
 
 
@@ -255,7 +256,9 @@ LIT =: tolower each LIT
 definealpha =: 4 : 0
 pri =. >x
 lit =. >y
-0$". lit,' =: ',pri
+try.
+0$". lit,'_z_ =: ',pri
+catch. EMPTY end.
 )
 
 NB.  setup all verb names
@@ -283,17 +286,14 @@ hh =: (;:^:_1) "1 gg =: sb$ (ui{PRI) u } b
 
 NB.  function to load an alpha primitives J script
 
-loada =: 3 : 0
-y toprimitives jpath '~temp/zzzzzzz.ijs'
-0!:000 <jpath '~temp/zzzzzzz.ijs'
-ferase jpath '~temp/zzzzzzz.ijs'
-)
+loada_z_ =: (0!:0)@,@(,.&LF)@toprimitives_jprimitives_@('m'&fread)
 
 NB.  load and display
-loadad =: 3 : 0
-y toprimitives jpath '~temp/zzzzzzz.ijs'
-0!:001 <jpath '~temp/zzzzzzz.ijs'
-ferase jpath '~temp/zzzzzzz.ijs'
-)
+
+loadad_z_=: (0!:1)@,@(,.&LF)@toprimitives_jprimitives_@('m'&fread)
+
+NB. export to z locale
+
+toprimitives_z_ =: toprimitives_jprimitives_
 
 cocurrent 'base'
