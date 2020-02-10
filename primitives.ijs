@@ -193,6 +193,12 @@ D: SecantSlope
 e. In MemberIn RazeIn
 E. MemberOfInterval
 f. Fix
+F.. FoldSF
+F.: FoldSR
+F.  FoldS
+F:. FoldMF
+F:: FoldMR
+F:  FoldM
 H. Hypergeometric
 i. IndexOf  Integers
 i: IndexOfLast IntegerRange Steps
@@ -214,7 +220,7 @@ t: WeightedTaylor
 T. TaylorApproximation
 u: Unicode
 x: NumDenom ExtendedPrecision 
-Z: Fold
+Z: FoldT
 )
 
 
