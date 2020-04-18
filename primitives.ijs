@@ -135,8 +135,6 @@ $: SelfReference
 |. Rotate Reverse Shift 
 |: Transpose Transpose
 .  DotProduct Determinant
-.. Even
-.: Odd
 :  MonadDyad  ExplicitDefinition  Explicit
 :. Obverse
 :: Adverse
@@ -187,9 +185,6 @@ a: Ace
 A. Anagram  AnagramIndex
 b. Basic  Boolean
 C. Permute Direct Cycle
-d. Derivative0
-D. Derivative
-D: SecantSlope
 e. In MemberIn RazeIn
 E. MemberOfInterval
 f. Fix
@@ -215,9 +210,6 @@ q: PrimeExponents PrimeFactors
 r. Polar Angle
 s: Symbol
 S: Spread
-t. TaylorCoefficient  
-t: WeightedTaylor
-T. TaylorApproximation
 u: Unicode
 x: NumDenom ExtendedPrecision 
 Z: FoldT
@@ -262,9 +254,7 @@ LIT =: tolower each LIT
 definealpha =: 4 : 0
 pri =. >x
 lit =. >y
-try.
 0$". lit,'_z_ =: ',pri
-catch. EMPTY end.
 )
 
 NB.  setup all verb names
