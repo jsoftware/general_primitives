@@ -1,4 +1,4 @@
-Note 'Primitives and Translation  J7'
+Note 'Primitives and Translation  J9'
 
 Names for primitives
 
@@ -13,8 +13,8 @@ time penalty.
 The alphabetic form and the graphics form can be freely mixed in a script.
 
 This script assigns names used in the Vocabulary and Dictionary.  The
-default is to use lowercase names consistent with the practise in J libraries. 
-The default order is to list a name for the dyadic form, then a name for the 
+default is to use lowercase names consistent with the practise in J libraries.
+The default order is to list a name for the dyadic form, then a name for the
 monadic form and finally some synonyms in the dictionary or common usage.
 
 These notes use CamelCase, words beginning with capitals and no
@@ -93,7 +93,7 @@ If you want to run the file and display the output use
 To convert a file using alpha primitives to the standard form is
 a more complex task.  There is some excellent material on the
 JWiki for this.  Look at Primitives to Mnemonics contributed
-by Don Guin. 
+by Don Guinn.
 )
 
 cocurrent 'jprimitives'
@@ -101,25 +101,25 @@ cocurrent 'jprimitives'
 
 PRIMITIVES =: noun define
 =  Equal  SelfClassify
-<  LessThan  Box LT 
-<. LesserOf  Floor Min 
+<  LessThan  Box LT
+<. LesserOf  Floor Min
 <: LessOrEqual LessThanOrEqual LE  Decrement
 >  LargerThan Open GT
->. LargerOf Ceiling Max  
->: LargerOrEqual Increment GE 
+>. LargerOf Ceiling Max
+>: LargerOrEqual Increment GE
 _  Infinity
 _. Indeterminate
 _: InfinityVerb
 +  Plus  Conjugate
 +. GCD  RealImaginary Or
-+: NotOr  Double  Nor 
++: NotOr  Double  Nor
 *  Times Signum
 *. LengthAngle And LCM
-*: NotAnd Square Sq Nand 
+*: NotAnd Square Sq Nand
 -  Minus Negate
 -. Less Not
 -: Match Halve
-%  Divide Reciprocal DividedBy 
+%  Divide Reciprocal DividedBy
 %. MatrixDivide  MatrixInverse
 %: Root  SquareRoot  Sqrt
 ^  ToPower Exp Exponential
@@ -128,11 +128,11 @@ _: InfinityVerb
 $  Shape  ShapeOf
 $. Sparse
 $: SelfReference
-~  Evoke Reflex Passive Reflexive 
+~  Evoke Reflex Passive Reflexive
 ~. Nub
-~: NotEqual  NubSieve NE 
+~: NotEqual  NubSieve NE
 |  Residue  Magnitude
-|. Rotate Reverse Shift 
+|. Rotate Reverse Shift
 |: Transpose Transpose
 .  DotProduct Determinant
 :  MonadDyad  ExplicitDefinition  Explicit
@@ -140,7 +140,7 @@ $: SelfReference
 :: Adverse
 ,  Append Ravel
 ,. Stitch  RavelItems
-,: Laminate Itemize  
+,: Laminate Itemize
 ;  Link  Raze
 ;. Cut
 ;: SequentialMachine Words FSM
@@ -211,7 +211,7 @@ r. Polar Angle
 s: Symbol
 S: Spread
 u: Unicode
-x: NumDenom ExtendedPrecision 
+x: NumDenom ExtendedPrecision
 Z: FoldT
 )
 

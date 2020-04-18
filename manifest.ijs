@@ -24,6 +24,5 @@ PLATFORMS=: ''
 
 FILES=: 0 : 0
 primitives.ijs
-history.txt
 manifest.ijs
 )
