@@ -134,7 +134,7 @@ $: SelfReference
 |  Residue  Magnitude
 |. Rotate Reverse Shift 
 |: Transpose Transpose
-..  DotProduct Determinant
+.  DotProduct Determinant
 .. Even
 .: Odd
 :  MonadDyad  ExplicitDefinition  Explicit
